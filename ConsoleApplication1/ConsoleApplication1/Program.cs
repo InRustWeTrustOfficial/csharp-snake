@@ -16,6 +16,18 @@ namespace ConsoleApplication1
             Point p2 = new Point(6, 8, '#');
             p2.Draw();
 
+            Point p3 = new Point(7, 5, '@');
+            p3.Draw();
+
+            Point p4 = new Point(1, 5, '&');
+            p4.Draw();
+
+            List<Point> pList = new List<Point>();
+            pList.Add(p1);
+            pList.Add(p2);
+            pList.Add(p3);
+            pList.Add(p4);
+
             Console.ReadLine();
         }
 
